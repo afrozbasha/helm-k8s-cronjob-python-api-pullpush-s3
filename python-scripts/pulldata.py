@@ -5,8 +5,8 @@ import json
 import boto3
 
 s3_client = boto3.client('s3',
-                         aws_access_key_id='AKIAUHPD7TBAD7OCKQFV',
-                         aws_secret_access_key='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',
+                         aws_access_key_id='AKIA********D7OCKQFV',
+                         aws_secret_access_key='dDJcpy*********lZt0v9GMcA',
                          region_name="ap-south-1")
 
 url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
